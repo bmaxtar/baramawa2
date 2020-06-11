@@ -1,0 +1,272 @@
+.container{
+  background-image: url("../../static/images/magazinebg.png");
+}
+.titrepage{
+  margin-top:2rem;
+  h6{
+    text-align: left;
+    font: Regular 24px/29px Glacial Indifference;
+    letter-spacing: 0px;
+    color: #8E497C;
+    opacity: 1;
+    text-align:center;
+
+  }
+}
+
+.magazinebook{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 40px;
+  opacity: 1;
+
+  .pageItem{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+
+    img{
+      min-height: 75vh;
+      max-height: 75vh;
+
+      width: 100%;
+    }
+  }
+}
+
+.piedpage{
+  margin-top:1%;
+  min-height: 11vh;
+  max-height: 11vh;
+
+
+  .col-7{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 13px;
+    opacity: 1;
+
+
+    img{
+      min-height: 100%;
+      max-height: 100%;
+      min-width: 100%;
+      max-width: 100%;
+    }
+  }
+
+}
+
+.publeft{
+  margin-top: 2rem;
+  min-height: 85%;
+  background-image: url("../../static/images/autopubmodale.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 90%;
+  .col-12{
+    background: linear-gradient(to right,rgba(255, 208, 48,0.5),rgba(0,0,0,0.1));
+    opacity: 0.67;
+
+    .reduc{
+      position: absolute;
+      background: #744A61;
+      box-shadow: 0px 3px 6px #000000;
+      border: 1px solid #707070;
+    }
+
+    .titre{
+      position: absolute;
+    }
+
+    .plus{
+      position: absolute;
+    }
+  }
+}
+
+.zoompage{
+  position: fixed;
+  z-index: 999;
+  left: 2rem;
+  top: 2rem;
+  min-width: 98%;
+  max-width: 98%;
+  min-height: 90vh !important;
+  max-height: 90vh !important;
+  margin-top: 2rem;
+}
+
+#mobile{
+  opacity: 1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: 100% 100%;
+  width: 100% !important;
+  padding: 0;
+}
+
+#menuMobile{
+  background-color: white;
+  box-shadow: 0px 3px 6px #00000029;
+  padding-bottom: 1rem;
+  opacity: 1;
+
+}
+#pubmm{
+  background-image: url("../../static/images/bgpub.png");
+  margin-left: 3rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity:1;
+}
+
+
+
+#degrade{
+   position: absolute;
+   top: 0;
+   left: 6%;
+   margin-left: 0.6rem;;
+   padding: 0;
+   min-height: 72%;
+   max-height: 72%;
+   min-width: 90%;
+   max-width: 90%;
+   width: 100%;
+   background: linear-gradient(to right,rgba(255, 208, 48,0.7),rgba(0,0,0,0.1));
+
+}
+
+#titrepub{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: white;
+  font-size: 2em;
+  text-align: left;
+
+}
+
+#reductionpub{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  color: #FFD332;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  border-radius: 50%;
+  background-color: #744A61;
+}
+
+#voirpluspub{
+  position: absolute;
+  bottom: 5%;
+  left:5%;
+  color: black;
+  font-size: 1.2em;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #FFD332;
+}
+
+#pubmm{
+  background-image: url("../../static/images/bgpub.png");
+  height: 6rem;
+  margin-left: 3rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity:1;
+}
+
+
+
+#mm{
+  display: none;
+  background-color: white;
+  opacity: 1;
+  width: 250px;
+  position:fixed;
+  right:0rem;
+  top:0px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  z-index: 98;
+  
+}
+
+#m li a:hover{
+  text-decoration: none;
+}
+
+#degrade{
+   position: absolute;
+   top: 0;
+   left: 0%;
+   margin: 0;
+   padding: 0;
+   min-height: 72%;
+   max-height: 72%;
+   min-width: 100%;
+   max-width: 100%;
+   width: 100%;
+   background: linear-gradient(to right,rgba(255, 208, 48,0.7),rgba(0,0,0,0.1));
+
+}
+
+#titrepub{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: white;
+  font-size: 2em;
+  text-align: left;
+
+}
+
+#reductionpub{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  color: #FFD332;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  border-radius: 50%;
+  background-color: #744A61;
+}
+
+#voirpluspub{
+  position: absolute;
+  bottom: 5%;
+  left:5%;
+  color: black;
+  font-size: 1.2em;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #FFD332;
+}
+
+#bodyMobile {
+  background: none;
+  background-color: #E4E4E4;
+}

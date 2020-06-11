@@ -1,0 +1,466 @@
+#content{
+    margin-top: 2em;
+}
+#menuc li{
+    display: inline-block;
+    margin-left:1.2em;
+    color: blue;
+    list-style: none;
+    border-bottom: 4px solid rgb(255, 208, 48);
+    cursor: pointer;
+}
+#menuc{
+    width:40%;
+    margin-left:auto;
+    margin-right: auto;
+   // background-color: green;
+}
+.imgauto:hover{
+    background: rgba(0,0,0,0.8);
+    cursor: pointer;
+    .mag{
+        opacity: 0.2;
+    }
+    .el{
+        display: block;
+        position: absolute;
+        top:1px;
+        z-index: 10;
+        color:white;
+    }
+
+}
+.imgauto{
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #E4E4E4;
+}
+.el{
+    display: none;
+}
+
+#m{
+  background-color: white;
+  opacity: 1;
+  width: 250px;
+  position:fixed;
+  left:2em;
+  top:0px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  z-index: 98;
+
+
+}
+
+#m li a:hover{
+text-decoration: none;
+}
+
+#triangle{
+    width: 0;
+    height: 0;
+    border-left: 126px solid transparent;
+    border-right: 125px solid transparent;
+    border-top: 50px solid white;
+    position: fixed;
+    left:2em;
+   /* top:42.7%;*/
+    /*width:20%;*/
+}
+
+
+#test{
+    background-image: url('../../static/images/imageyaris.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#popup{
+    z-index: 50;
+    position: fixed;
+    top:10%;
+    left:15%;
+    width: 70%;
+    //height: 300px;
+    background-color:white;
+    border:1px solid grey;
+    padding: 1.5em;
+    border-radius: 2em
+}
+#imgpop{
+    background-image: url('../../static/images/yaris-5-1152x384_tcm-18-1633911.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+   // border:1px solid black;
+    margin-top:0.5em;
+}
+#promoauto{
+
+    background-image: url("../../static/images/WhatsApp Image 2020-04-18 at 13.58.23.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width:100%;
+ // position: relative;
+}
+#p{
+    background-color: rgb(114,64,90);
+    color:rgb(255, 208, 48);
+    display: inline-block;
+    width: 8%;
+    border-radius: 50%;
+    margin-left: 20%;
+    font-size: 1.5em;
+    margin-top:0.8em;
+}
+#backauto{
+    background: linear-gradient(to right,rgba(255, 208, 48,0.7),rgba(0,0,0,0.1));
+    height: 70px;
+}
+.imgautopopup{
+    margin-bottom:2em;
+    border:1px solid rgba(0,0,0,0.2);
+    //box-shadow:1px 1px grey,1px 1px grey;
+    margin-right: 1.5em;
+    background-image: url('../../static/images/imageyaris.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width:100%;
+}
+#img1{
+    background-image: url('../../static/images/yaris-8-1152x384_tcm-18-1633915@2x.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width:100%;
+}
+.img4{
+    background-image: url('../../static/images/yaris-5-1152x384_tcm-18-1633911.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width:100%;
+}
+.img3{
+    background-image: url('../../static/images/yaris-12-768x384_tcm-18-1633920@2x.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width:100%;
+}
+
+.pub{
+  background-image: url("../../static/images/WhatsApp Image 2020-04-18 at 13.58.23.png");
+  height: 6rem;
+  margin-left: 3rem;
+
+  .degrade{
+     position: absolute;
+     top: 0;
+     left: 2.5%;
+     margin: 0;
+     padding: 0;
+     min-height: 100%;
+     max-height: 100%;
+     min-width: 90%;
+     max-width: 90%;
+     width: 100%;
+     background: linear-gradient(to right,rgba(255, 208, 48,0.7),rgba(0,0,0,0.1));
+
+  }
+
+  .titre{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    font-size: 1.8em;
+  }
+
+  .reduction{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: #FFD332;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    border-radius: 50%;
+    background-color: #744A61;
+  }
+
+  .voirplus{
+    position: absolute;
+    bottom: 5%;
+    right:5%;
+    color: black;
+    font-size: 0.7em;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #FFD332;
+  }
+}
+
+.infoVoiture{
+  text-align: left;
+  font: Bold 31px/37px Glacial Indifference;
+  letter-spacing: 0px;
+  color: black;
+}
+
+.pub{
+  background-image: url("../../static/images/WhatsApp Image 2020-04-18 at 13.58.23.png");
+  height: 4rem;
+  margin-left: 3rem;
+
+  .degrade{
+     position: absolute;
+     top: 0;
+     left: 2.5%;
+     margin: 0;
+     padding: 0;
+     min-height: 100%;
+     max-height: 100%;
+     min-width: 90%;
+     max-width: 90%;
+     width: 100%;
+     background: linear-gradient(to right,rgba(255, 208, 48,0.7),rgba(0,0,0,0.1));
+
+  }
+
+  .titre{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    font-size: 1.8em;
+  }
+
+  .reduction{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: #FFD332;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    border-radius: 50%;
+    background-color: #744A61;
+  }
+
+  .voirplus{
+    position: absolute;
+    bottom: 5%;
+    right:5%;
+    color: black;
+    font-size: 0.7em;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #FFD332;
+  }
+}
+
+#mm{
+  display: none;
+  background-color: white;
+  opacity: 1;
+  width: 250px;
+  position:fixed;
+  right:0rem;
+  top:0px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  z-index: 98;
+}
+
+#trianglemm{
+    position:fixed;
+    z-index: 98;
+    display: none;
+    width: 0;
+    height: 0;
+    border-left: 111px solid transparent;
+    border-right: 142px solid transparent;
+    border-top: 50px solid white;
+    position: fixed;
+    right:0em;
+
+
+   /* top:42.7%;*/
+    /*width:20%;*/
+}
+
+#mobile{
+  background: #F5F5F5;
+  opacity: 1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100vh;
+  height: 100vh;
+}
+
+#menuMobile{
+  background-color: white;
+  box-shadow: 0px 3px 6px #00000029;
+  padding-bottom: 1rem;
+  opacity: 1;
+
+}
+
+#pubmm{
+  background-image: url("../../static/images/bgpub.png");
+  height: 4rem;
+  margin-left: 3rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity:1;
+}
+
+
+#bodyMobile{
+  background-image: url("../../static/images/bgmobiletrip.png");
+  opacity: 1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+#degrade{
+   position: absolute;
+   top: 0;
+   left: 0%;
+   margin: 0;
+   padding: 0;
+   min-height: 72%;
+   max-height: 72%;
+   min-width: 100%;
+   max-width: 100%;
+   width: 100%;
+   background: linear-gradient(to right,rgba(255, 208, 48,0.7),rgba(0,0,0,0.1));
+
+}
+
+#titrepub{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: white;
+  font-size: 2em;
+  text-align: left;
+
+}
+
+#reductionpub{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  color: #FFD332;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  border-radius: 50%;
+  background-color: #744A61;
+}
+
+#voirpluspub{
+  position: absolute;
+  bottom: 5%;
+  left:5%;
+  color: black;
+  font-size: 1.2em;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #FFD332;
+}
+
+#pubmm{
+  background-image: url("../../static/images/bgpub.png");
+  height: 6rem;
+  margin-left: 3rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity:1;
+}
+
+
+
+#degrade{
+   position: absolute;
+   top: 0;
+   left: 0%;
+   margin: 0;
+   padding: 0;
+   min-height: 72%;
+   max-height: 72%;
+   min-width: 100%;
+   max-width: 100%;
+   width: 100%;
+   background: linear-gradient(to right,rgba(255, 208, 48,0.7),rgba(0,0,0,0.1));
+
+}
+
+#titrepub{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: white;
+  font-size: 2em;
+  text-align: left;
+
+}
+
+#reductionpub{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  color: #FFD332;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  border-radius: 50%;
+  background-color: #744A61;
+}
+
+#voirpluspub{
+  position: absolute;
+  bottom: 5%;
+  left:5%;
+  color: black;
+  font-size: 1.2em;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #FFD332;
+}
