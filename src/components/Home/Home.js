@@ -9,10 +9,12 @@ import mag from '../../static/images/mag.png';
 import birawama3d from '../../static/images/BIRAMAWA3D2.png'
 import facebook from '../../static/images/facebook.png';
 import twiter from '../../static/images/twiter.png';
+import instagram from '../../static/images/instagram.png';
 import linkedin from '../../static/images/linkedin.png';
 import whatsapp from '../../static/images/whatsapp.png';
 import home from '../../static/images/home.png';
 import bgpub from '../../static/images/bgpub.png';
+
 
 
 import './home.css';
@@ -287,7 +289,7 @@ class Home extends Component {
 
                   </div>
                   <div id="triangle"></div>
-                    <div style={{marginTop:"-10%"}}>
+                    <div style={{marginTop:"-17%"}}>
                       <h3 id="text">{this.state.imgSlide[this.state.idimgslide].text}</h3>
 
                     </div>
@@ -316,6 +318,7 @@ class Home extends Component {
                 <div id="socialMediaTop">
                       <div><img src={facebook} alt="facebook" /></div>
                       <div><img src={twiter} alt="twiter" /></div>
+                      <div><img src={instagram} alt="instagram" /></div>
                       <div><img src={linkedin} alt="linkedin" /></div>
                       <div><img src={whatsapp} alt="whatsapp" /></div>
                 </div>
@@ -323,7 +326,7 @@ class Home extends Component {
                     <div id="back" className="col-12">
                       <div><h3 style={{marginTop:"2.5rem", marginLeft:"4rem"}}><b>Du nouveau chez BIRAWAMA</b></h3></div>
                       <span id="p">-15%</span>
-                      <div id="suite"><b style={{marginRight:"0.3em"}}>En Savoir Plus</b><i></i></div>
+                      <div id="suite"><b style={{marginRight:"0.3em"}}>En savoir plus</b></div>
                     </div>
                  </div>
            </div>
@@ -371,6 +374,9 @@ class Home extends Component {
                        </div>
                        <div  className="col-12">
                          <div><img src={twiter} alt="twiter" /></div>
+                       </div>
+                       <div  className="col-12">
+                         <div><img src={instagram} alt="instagram" /></div>
                        </div>
                        <div  className="col-12">
                          <div><img src={linkedin} alt="linkedin" /></div>

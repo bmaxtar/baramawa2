@@ -621,7 +621,7 @@ class Automobile extends Component {
                                <div class="col-10">
                                   <form style={{marginLeft:"28%",marginTop:"2%",width:"auto"}} className="from-inline">
                                     <input type="search" style={{border: "1px solid #E4E4E4"}}/>
-                                    <input style={{border: "1px solid #FFD332",backgroundColor:"#FFD332",marginLeft:"0px",opacity: "1",font: "Regular 18px/21px Arial",letterSpacing:"0px"}} type="button" value="Recherche" />
+                                    <input style={{border: "1px solid #FFFFFF",backgroundColor:"#FFD332",marginLeft:"0px",opacity: "1",font: "Regular 18px/21px Arial",letterSpacing:"0px"}} type="button" value="Recherche" id="Recherche"/>
                                   </form>
                               </div>
                             </div>
@@ -824,7 +824,7 @@ class Automobile extends Component {
                           <div  style={{width:"70%",marginLeft:"13%",marginTop:"2em",textAlign:'center'}} className="row ">
                             <div  className="col-12 ">
                               <p>
-                                <span onClick={()=>this.voituresShowPlus()} style={{background: '#FFD332 0% 0% no-repeat padding-box',opacity: '1',padding:'0.7rem',paddingLeft:"2rem",paddingRight:"2rem"}}>
+                                <span className="voirplusbas" onClick={()=>this.voituresShowPlus()} style={{background: '#FFD332 0% 0% no-repeat padding-box',opacity: '1',padding:'0.7rem',paddingLeft:"2rem",paddingRight:"2rem", borderRadius:"15px"}}>
                                   Voir plus
                                 </span>
                               </p>

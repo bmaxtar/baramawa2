@@ -1,3 +1,4 @@
+
 #content{
     margin-top: 2em;
 }
@@ -15,6 +16,7 @@
     margin-right: auto;
    // background-color: green;
 }
+
 .imgauto:hover{
     background: rgba(0,0,0,0.8);
     cursor: pointer;
@@ -175,7 +177,7 @@ text-decoration: none;
 
   .titre{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 10%;
     color: white;
     font-size: 1.8em;
@@ -205,6 +207,12 @@ text-decoration: none;
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #FFD332;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .voirplus:hover{
+    background:#744a61;
+    color:white;
   }
 }
 
@@ -261,12 +269,18 @@ text-decoration: none;
     bottom: 5%;
     right:5%;
     color: black;
-    font-size: 0.7em;
+    font-size: 0.9em;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #FFD332;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .voirplus:hover{
+    background:#72405A;
+    color:#ffffff;
   }
 }
 
@@ -463,4 +477,24 @@ text-decoration: none;
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: #FFD332;
+}
+form input{
+  border-radius: 15px;
+  input{
+    border-radius: 10px;
+    color: #fff;
+    border: 0px solid white;
+  }
+}
+form input:hover{
+  background: #fff;
+  color: #ffffff;
+}
+.voirplusbas:hover{
+  background: #744a61 !important;
+  color: white !important;
+}
+#Recherche:hover{
+  background: #744a61 !important;
+  color: white !important;
 }

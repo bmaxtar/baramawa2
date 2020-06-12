@@ -525,9 +525,9 @@ class Magazine extends Component {
                                 -15
                               </span>
                               <span className="titre" style={{position:"absolute",top:"18rem",font: 'Bold 16px/24px Arial',letterSpacing: '0px',color: '#FFFFFF'}}>
-                                Du nouveau <br /> chez <br />BIRAMAWA
+                                Du nouveau <br/> chez <br/>BIRAMAWA
                               </span>
-                              <span className="plus" style={{position:"absolute",top:"25rem",right:'20%',padding:'0.5rem',backgroundColor:'#FFD030',color:'black'}}>
+                              <span className="plus" style={{position:"absolute",top:"25rem",right:'15%',padding:'0.4rem',}}>
                                 voir plus
                               </span>
                             </div>
@@ -698,7 +698,7 @@ class Magazine extends Component {
                         <div className="row" >
                           <div className="col-12">
                             <button onClick={() =>  this.previousMagazine()} style={{background:"none",border:"none", marginTop:'2rem'}}>
-                              <i  className="fas fa-angle-left" style={{color: '#744A61',border:'1px solid #744A61', padding:'0.5rem',borderRadius:"50%", marginRight:'2rem'}}></i>
+                              <i className="fas fa-angle-left" style={{color: '#744A61',border:'1px solid #744A61', padding:'0.5rem',borderRadius:"50%", marginRight:'2rem'}}></i>
                             </button>
                         </div>
                         </div>
@@ -723,7 +723,7 @@ class Magazine extends Component {
                         <div className="row" >
                           <div className="col-12">
                             <button onClick={() => this.nextMagazine()} style={{background:"none",border:"none", marginTop:'2rem'}}>
-                              <i  className="fas fa-angle-right" style={{color: '#744A61',border:'1px solid #744A61', padding:'0.5rem',borderRadius:"50%", marginLeft:'0'}}></i>
+                              <i className="fas fa-angle-right" style={{color: '#744A61',border:'1px solid #744A61', padding:'0.5rem',borderRadius:"50%", marginLeft:'0'}}></i>
                             </button>
                         </div>
                         </div>

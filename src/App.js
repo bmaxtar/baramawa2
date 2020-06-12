@@ -20,6 +20,7 @@ import MagazineMobile from './components/MagazineMobile/MagazineMobile';
 import $ from 'jquery';
 
 
+
 class App extends Component {
 
   constructor(){

@@ -10,7 +10,8 @@
     color: #8E497C;
     opacity: 1;
     text-align:center;
-
+    cursor: pointer;
+    font-weight: bold;
   }
 }
 
@@ -270,4 +271,27 @@
 #bodyMobile {
   background: none;
   background-color: #E4E4E4;
+}
+.plus{
+  border-radius: 15px;
+  cursor: pointer;
+  background: #FFD030;
+  color: black;
+  }
+.plus:hover{
+  background: #744a61;
+  color: white;
+}
+
+#pagePreviousButton0:hover{
+  background: #ffd030 !important;
+}
+#pageNextButton0:hover{
+  background: #ffd030 !important;
+}
+#magazineNextButtonmm:hover{
+  background: #ffd030 !important;
+}
+#magazinePreviousButtonmm:hover{
+  background: #ffd030 !important;
 }
