@@ -10,6 +10,7 @@ import mag from './static/images/mag.png';
 import birawama3d from './static/images/BIRAMAWA3D2.png'
 import facebook from './static/images/facebook.png';
 import twiter from './static/images/twiter.png';
+import instagram from './static/images/instagram.png';
 import linkedin from './static/images/linkedin.png';
 import whatsapp from './static/images/whatsapp.png';
 import home from './static/images/home.png';
@@ -18,6 +19,7 @@ import Home from './components/Home/Home';
 import Admin from './components/Admin/Admin';
 import MagazineMobile from './components/MagazineMobile/MagazineMobile';
 import $ from 'jquery';
+import { motion } from "framer-motion";
 
 
 
@@ -128,6 +130,7 @@ class App extends Component {
           <div id="socialMediaTop">
               <div><img src={facebook} alt="facebook" /></div>
               <div><img src={twiter} alt="twiter" /></div>
+              <div><img src={instagram} alt="instagram" /></div>
               <div><img src={linkedin} alt="linkedin" /></div>
               <div><img src={whatsapp} alt="whatsapp" /></div>
           </div>

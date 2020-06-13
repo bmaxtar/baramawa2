@@ -316,7 +316,7 @@ class Home extends Component {
                   <Link to="/admin">admin</Link>
                 </div>
                 <div id="socialMediaTop">
-                      <div><img src={facebook} alt="facebook" /></div>
+                      <div Animated="fadeIn delay-2s"><img src={facebook} alt="facebook" /></div>
                       <div><img src={twiter} alt="twiter" /></div>
                       <div><img src={instagram} alt="instagram" /></div>
                       <div><img src={linkedin} alt="linkedin" /></div>
@@ -362,7 +362,7 @@ class Home extends Component {
                  <div id="trianglemm" ></div>
 
                </div>
-               <div  className="col-12" style={{marginTop:'5rem'}}>
+               <div  className="col-12" style={{marginTop:'5rem'}} id="socialMediaTopMobile">
                  <div  className="row">
                    <div  className="col-10">
 

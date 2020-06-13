@@ -22,6 +22,7 @@ import magazine3 from '../../static/images/magazine3.jpeg';
 import logotrips from '../../static/images/logotrips.png';
 import etendre from '../../static/images/etendre.png';
 import axios from 'axios';
+import { motion } from "framer-motion";
 
 
 class Magazine extends Component {

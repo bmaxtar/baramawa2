@@ -23,6 +23,7 @@ import logotrips from '../../static/images/logotrips.png';
 import etendre from '../../static/images/etendre.png';
 import axios from 'axios';
 import sn from '../../static/images/sn.png';
+import { motion } from "framer-motion";
 
 
 class MagazineMobile extends Component {

@@ -265,7 +265,8 @@
 #menuMobile{
   background-color: white;
   opacity: 1;
-
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #bodyMobile{
@@ -386,4 +387,8 @@
   padding-right: 1rem;
   background-color: #FFD332;
   border-radius: 5px !important;
+}
+#voirpluspub:hover{
+  background: #744a61 !important;
+  color: white !important;
 }

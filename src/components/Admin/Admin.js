@@ -625,10 +625,10 @@ class Admin extends Component {
         return (
           <div id="container">
             <div className="row">
-              <div className="col-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="col-12" style={{textAlign:'center'}}>
+                <nav class="navbar navbar-expand-lg navbar-light">
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto  justify-content-end">
                       <li class="nav-item active">
                         <a class="nav-link" href="#">Ajouter Car <span class="sr-only">(current)</span></a>
                       </li>
@@ -725,7 +725,7 @@ class Admin extends Component {
 
                       <div className="form-group">
                         <label for="exampleFormControlInput1">les images de la voiture</label>
-                          <div className="row" style={{border:'1px solid black'}}>
+                          <div className="row" style={{border:'1px solid black'}} id="cadreImg">
                             {this.state.nbrImgVoiture.map((image, index) => (
                               <div className="col-12" key={index}>
                                   <p>image {index + 1}</p>
@@ -776,7 +776,7 @@ class Admin extends Component {
 
                       <div className="form-group">
                         <label for="exampleFormControlInput1">les images de la voiture</label>
-                          <div className="row" style={{border:'1px solid black'}}>
+                          <div className="row" style={{border:'1px solid black'}} id="cadreImg">
                             {this.state.nbrImgSite.map((image, index) => (
                               <div className="col-12" key={index}>
                                   <p>image {index + 1}</p>
@@ -831,7 +831,7 @@ class Admin extends Component {
 
                       <div className="form-group">
                         <label for="exampleFormControlInput1">images  Hebergement</label>
-                          <div className="row" style={{border:'1px solid black'}}>
+                          <div className="row" style={{border:'1px solid black'}} id="cadreImg">
                             {this.state.nbrImgHebergement.map((image, index) => (
                               <div className="col-12" key={index}>
                                   <p>image {index + 1}</p>
@@ -891,7 +891,7 @@ class Admin extends Component {
 
                       <div className="form-group">
                         <label for="exampleFormControlInput1">images  Pages Desktop</label>
-                          <div className="row" style={{border:'1px solid black'}}>
+                          <div className="row" style={{border:'1px solid black'}} id="cadreImg">
                             {this.state.nbrImgMagazineDesk.map((image, index) => (
                               <div className="col-12" key={index}>
                                   <p>image {index + 1}</p>
@@ -913,7 +913,7 @@ class Admin extends Component {
 
                         <div className="form-group">
                           <label for="exampleFormControlInput1">images  Pages Mobile</label>
-                            <div className="row" style={{border:'1px solid black'}}>
+                            <div className="row" style={{border:'1px solid black'}} id="cadreImg">
                               {this.state.nbrImgMagazineMobile.map((image, index) => (
                                 <div className="col-12" key={index}>
                                     <p>image {index + 1}</p>

@@ -1,4 +1,4 @@
-  import React, { Component } from 'react';
+import React, { Component } from 'react';
 import './Automobile.scss';
 import sn from '../../static/images/sn.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
